@@ -1,0 +1,25 @@
+
+   
+.Card {
+    border-style: solid;
+    border:rgb(139, 81, 4);
+    background-color: rgb(87, 52, 6);
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px 20px; 
+    float: left; 
+    transition: transform 0.8s;
+    font-size: 3em;
+    padding-top: 30px;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center; */
+    
+  }
+  
+  .Card.face-up {
+    border: #2A78B8;
+    background-color: #2A78B8;
+    transform: rotateY(180deg);
+  }
